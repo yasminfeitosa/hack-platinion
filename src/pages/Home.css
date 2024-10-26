@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .home-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .what-to-do {
+    background-color: #fff6e6;
+    border: 1px solid #ffcc99;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .what-to-do h2 {
+    font-size: 1.5rem;
+    color: #ed4305;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .what-to-do p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .what-to-do b {
+    color: #ed4305;
+  }
+  
+  #date-to {
+    font-weight: bold;
+    color: #5a5a5a;
+    font-size: 1rem;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }  
+  
+  .safe-message, .disaster-alert {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .safe-message {
+    background-color: #b3ffce;
+    border: 1px solid #31c874;
+    color: #31c874;
+  }
+  
+  .disaster-alert {
+    background-color: #ffcccc;
+    border: 1px solid #ff6666;
+    color: #ff3333;
+    margin-top: 10px;
+  }
+
+  .disaster-alert h2 {
+    color: #ff3333
+  }
+  
+  .map-section {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .map-placeholder {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .map-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+  .assistance-info {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: justify;
+    background-color: #f0fff4;
+    border: 1px solid #c6f6d5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .assistance-info h3 {
+    color: #2f855a;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .assistance-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #38a169;
+  }
+  
+  .assistance-item p {
+    margin: 0;
+    color: #2d3748;
+    font-size: 1rem;
+  }
+  
+  .assistance-item p b {
+    color: #2f855a;
+    font-weight: bold;
+  }
+  

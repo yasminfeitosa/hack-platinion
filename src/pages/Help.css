@@ -1,0 +1,39 @@
+.help {
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .help h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .emergency-alert {
+    background-color: #ffebee;
+    color: #b71c1c;
+    border: 1px solid #b71c1c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .emergency-alert p {
+    margin: 10px 0;
+  }
+  
+  .emergency-button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .emergency-button:hover {
+    background-color: #b71c1c;
+  }
+  

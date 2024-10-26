@@ -5,6 +5,7 @@ import Help from './pages/Help';
 import ClimateInfo from './pages/ClimateInfo';
 import PreventInfo from './pages/PreventInfo';
 import Contact from './pages/Contact';
+import Address from './pages/Address';
 import './App.css';
 import TopNavBar from './components/TopNavBar';
 
@@ -15,11 +16,12 @@ const App: React.FC = () => {
         <TopNavBar />
         <div className="content">
           <Routes>
-            <Route path="/" element={ <Home />} />
+            <Route path="/" element={ <Home isDisaster />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/prevent" element={<PreventInfo />} />
-            <Route path="/help" element={<Help />} />
+            <Route path="/help" element={<Help isDisaster/>} />
             <Route path="/climate" element={<ClimateInfo />} />
+            <Route path="/address" element={<Address />} />
           </Routes>
         </div>
 

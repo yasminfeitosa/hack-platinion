@@ -11,10 +11,21 @@ const TopNavBar: React.FC = () => {
 
   return (
     <div className="top-nav">
-      <button onClick={handleBack}> ⬅️ Voltar </button>
-      <Link to="/" className="back">
-        Início
-      </Link>
+      <div className="top-nav-row">
+        <Link to="/" className="home-link">
+          Início
+        </Link>
+        <button onClick={handleBack} className="back-button">
+          Voltar ⬅️
+        </button>
+      </div>
+
+      <div className="location">
+        <span>Seu local: Av. Paulista, 1000, São Paulo </span>
+        <Link to="/address" className="change-location">
+          (Mudar)
+        </Link>
+      </div>
     </div>
   );
 };

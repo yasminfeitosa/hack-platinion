@@ -1,0 +1,59 @@
+.climate-change {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
+  .climate-change-page h2 {
+    font-size: 1.6rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .intro {
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .esg-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .esg-action {
+    background-color: #e8f5e9;
+    border-left: 4px solid #66bb6a;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .esg-action h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2e7d32;
+  }
+  
+  .esg-action p {
+    font-size: 0.95rem;
+    color: #388e3c;
+    margin-top: 5px;
+  }
+  
+  .disaster-info {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f1f8e9;
+    border-radius: 5px;
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 30px;
+  }
+  
+  .disaster-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
