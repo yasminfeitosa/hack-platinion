@@ -1,0 +1,27 @@
+.top-nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #32a85c;
+    color: white;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .top-nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .back {
+    align-self: right;
+  }
