@@ -10,13 +10,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
     width: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
     overflow-x: hidden;
+    margin-top: 100px;
   }
 
   .what-to-do {
